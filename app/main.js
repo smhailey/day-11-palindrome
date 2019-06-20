@@ -24,3 +24,12 @@ return true;
 }
 
 isPalindrome("tacocat")
+
+
+
+
+
+function isPlural(str) {
+  return str[str.length - 1] == "s"
+}
+console.log(isPlural(""))
